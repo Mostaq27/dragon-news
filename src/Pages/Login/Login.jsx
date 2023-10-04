@@ -3,6 +3,16 @@ import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Login = () => {
+
+    const handleLogin = e => {
+        e.preventDefault();
+        // console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget);
+        console.log(form.get('email'));
+    }
+
+
+
     return (
         <div>
             <Navbar></Navbar>
@@ -10,7 +20,7 @@ const Login = () => {
             <div>
                 <h2 className="text-3xl font-bold text-center py-10">Pleasse Login</h2>
 
-                    <form className="md:w-3/4 lg:w-1/2 mx-auto">
+                    <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto">
                     <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Email</span>
