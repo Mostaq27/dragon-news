@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NewsCard = ({ news }) => {
     const {title, image_url, details, _id} = news;
     return (
-        <div className="card bg-base-100 shadow-xl mb-16">
+        <div className="card bg-base-100 shadow-xl mb-6">
             <figure className=" w-full"><img src={image_url} alt="image" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>

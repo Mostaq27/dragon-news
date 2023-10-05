@@ -10,26 +10,26 @@ const RightSideNav = () => {
         <div>
             <div className='p-4 space-y-3 mb-6'>
                 <h2 className="text-3xl font-semibold">Login With</h2>
-                <button className="btn btn-outline w-full capitalize">
+                <button className="btn btn-outline w-full capitalize text-blue-700">
                     <FaGoogle />
                     Login With Google
                 </button>
-                <button className="btn btn-outline w-full capitalize">
+                <button className="btn btn-outline w-full capitalize text-green-500">
                     <FaGithub />
                     Login With Github
                 </button>
             </div>
             <div className='p-4  mb-6'>
                 <h2 className="text-3xl font-semibold mb-5">Find Us On</h2>
-                <a className='p-4 flex text-lg items-center border rounded-t-lg' href="">
+                <a className='p-4 flex text-lg items-center border rounded-t-lg text-blue-600' href="">
                     <FaFacebook className='mr-3'></FaFacebook>
                     <span>Facebook</span>
                 </a>
-                <a className='p-4 flex text-lg items-center border-x' href="">
+                <a className='p-4 flex text-lg items-center border-x text-green-400' href="">
                     <FaTwitter className='mr-3'></FaTwitter>
                     <span>Twitter</span>
                 </a>
-                <a className='p-4 flex text-lg items-center border rounded-b-lg' href="">
+                <a className='p-4 flex text-lg items-center border rounded-b-lg text-red-500' href="">
                     <FaInstagram className='mr-3'></FaInstagram>
                     <span>Instagram</span>
                 </a>

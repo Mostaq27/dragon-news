@@ -39,7 +39,7 @@ const Login = () => {
             <Navbar></Navbar>
 
             <div>
-                <h2 className="text-3xl font-bold text-center py-10">Pleasse Login</h2>
+                <h2 className="text-3xl font-semibold text-center py-10">Login your account</h2>
 
                     <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto">
                     <div className="form-control">
