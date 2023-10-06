@@ -9,13 +9,15 @@ const NewsCard = ({ news }) => {
     return (
         <div className="card bg-base-100 shadow-xl mb-6">
             <div className="">
-                <div className="flex pl-2">
+                <div className="flex justify-between items-center px-3">
+                    <div className="flex ">
                     <figure className="h-[40px] rounded-full w-[40px]"><img src={img} alt="image" /></figure>
                     <div className="px-2 flex-grow-1">
                         <div className="">{name}</div>
                         <div className=" text-sm">{moment(published_date).format('yyyy-MM-D')}</div>
                     </div>
-                    <div className="flex items-center gap-2 ml-[300px] text-gray-200">
+                    </div>
+                    <div className="flex items-center gap-2 ml-[300px] text-gray-500">
                         <FaRegBookmark />  <FaShareAlt />
                     </div>
                 </div>
